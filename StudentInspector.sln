@@ -11,18 +11,6 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "StudentInspectorInstaller_x
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "StudentInspectorInstaller_x64", "StudentInspectorInstaller_x64\StudentInspectorInstaller_x64.vdproj", "{4E440C02-7650-43D7-8419-390E1C376D3E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "release", "release", "{1D1208E0-D21B-41CD-AE2F-C19EE492982A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "32 bit", "32 bit", "{36782187-DAC7-43FB-9770-15587CB06D80}"
-	ProjectSection(SolutionItems) = preProject
-		release\32 bit\StudentInspectorInstaller.msi = release\32 bit\StudentInspectorInstaller.msi
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "64 bit", "64 bit", "{CA75B847-722F-4F4D-A359-2BF995A88188}"
-	ProjectSection(SolutionItems) = preProject
-		release\64 bit\StudentInspectorInstaller_x64.msi = release\64 bit\StudentInspectorInstaller_x64.msi
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,10 +68,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{36782187-DAC7-43FB-9770-15587CB06D80} = {1D1208E0-D21B-41CD-AE2F-C19EE492982A}
-		{CA75B847-722F-4F4D-A359-2BF995A88188} = {1D1208E0-D21B-41CD-AE2F-C19EE492982A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47BA1DBC-48D2-4821-BE16-E35FA0E6408A}
