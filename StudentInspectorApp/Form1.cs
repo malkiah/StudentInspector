@@ -263,7 +263,7 @@ namespace StudentInspectorApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(@"Student Inspector Software
+            MessageBox.Show(@"Student Audit Software
 (c) Jorge García Ochoa de Aspuru
 Maristak Bilbao","Acerca de...");
         }

@@ -34,12 +34,12 @@
             this.lstItems = new System.Windows.Forms.ListBox();
             this.pbImage = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnConfig = new System.Windows.Forms.Button();
             this.btnOcultar = new System.Windows.Forms.Button();
             this.btnAbout = new System.Windows.Forms.Button();
             this.txtNum = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -47,7 +47,7 @@
             // studentInspectorNotifyIcon
             // 
             this.studentInspectorNotifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("studentInspectorNotifyIcon.Icon")));
-            this.studentInspectorNotifyIcon.Text = "Student Inspector";
+            this.studentInspectorNotifyIcon.Text = "Student Audit";
             this.studentInspectorNotifyIcon.Visible = true;
             this.studentInspectorNotifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.studentInspectorNotifyIcon_MouseDoubleClick);
             // 
@@ -88,6 +88,16 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Information";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label2.Location = new System.Drawing.Point(203, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(167, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Este equipo está siendo auditado.";
             // 
             // btnConfig
             // 
@@ -140,16 +150,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Número de capturas:";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label2.Location = new System.Drawing.Point(203, 19);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(167, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Este equipo está siendo auditado.";
-            // 
             // StudentInspectorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -161,7 +161,7 @@
             this.Controls.Add(this.lstItems);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StudentInspectorForm";
-            this.Text = "Student Inspector";
+            this.Text = "Student Audit";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.StudentInspectorForm_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.StudentInspectorForm_FormClosed);
