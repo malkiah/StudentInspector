@@ -94,12 +94,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BEA4D82B224D4297756EC158F30A856B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_D883B54D7A8743439CC33BB89F76BB3D"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -131,6 +125,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_48AAE74A590ED0DA2B663BAABBECF4F1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_BEA4D82B224D4297756EC158F30A856B"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -499,15 +499,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:StudentAudit"
-        "ProductCode" = "8:{5B1C68B2-44AE-41DB-AD6B-02C81ACDA143}"
-        "PackageCode" = "8:{AEFEEE58-3592-40A0-AB4A-D5BF6D7DD67A}"
+        "ProductCode" = "8:{FE6BD7E3-E5AF-4877-B973-ABE9E4AA9331}"
+        "PackageCode" = "8:{166C4AD5-2723-4CC0-B9B0-8FCC19DEE923}"
         "UpgradeCode" = "8:{80109A4E-3A97-4A25-9A49-F5FF38B8DFB0}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:Maristak Bilbao"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

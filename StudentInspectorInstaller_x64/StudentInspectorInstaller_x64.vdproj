@@ -94,12 +94,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AC36DFA895D58E8661D64F34BCA24C86"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_4A67DBD8BA884813918C67C9105010B7"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -131,6 +125,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_6461C69CF4A9580516C43409EACC1358"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_AC36DFA895D58E8661D64F34BCA24C86"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -190,6 +190,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -491,15 +499,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:StudentAudit"
-        "ProductCode" = "8:{B29A38B6-02CD-4CC6-917D-274336B9C97F}"
-        "PackageCode" = "8:{1EDA4217-918C-4C54-8BC3-C21260978F86}"
+        "ProductCode" = "8:{5992BE42-8C93-48AE-B143-FE3ADD1A115C}"
+        "PackageCode" = "8:{27FEFDC0-86CC-4513-8DE5-FBF04469F77D}"
         "UpgradeCode" = "8:{ADD53A8F-CF33-470A-954E-C56B5DAAE211}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:Maristak Bilbao"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -508,7 +516,7 @@
         "ARPCONTACT" = "8:Jorge García Ochoa de Aspuru"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Student Audit by Jorge García"
-        "ARPURLINFOABOUT" = "8:"
+        "ARPURLINFOABOUT" = "8:maristakbilbao.com"
         "ARPPRODUCTICON" = "8:_5AC8DD839B7041879E76FCD7D040D908"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
