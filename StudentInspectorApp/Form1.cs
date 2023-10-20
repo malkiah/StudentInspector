@@ -137,13 +137,15 @@ namespace StudentInspectorApp
         {
             foreach (Screen screen in Screen.AllScreens)
             {
-                using (Bitmap bmp = new Bitmap(screen.Bounds.Width, screen.Bounds.Height))
+                float dpiRatio = ScreenUtils.GetScalingFactor(screen);
+                Size s = new Size((int) (screen.Bounds.Width * dpiRatio), (int) (screen.Bounds.Height * dpiRatio));
+                using (Bitmap bmp = new Bitmap(s.Width, s.Height))
                 {
                     using (Graphics g = Graphics.FromImage(bmp))
                     {
                         try
                         {
-                            g.CopyFromScreen(screen.Bounds.X, screen.Bounds.Y, 0, 0, screen.Bounds.Size);
+                            g.CopyFromScreen(screen.Bounds.X, screen.Bounds.Y, 0, 0, s);
                             ImageEntry entry = SaveBitmap(bmp, screen);
                             if (entry != null)
                             {
